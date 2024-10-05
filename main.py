@@ -106,10 +106,9 @@ def flow(steps_string):
     return mermaid_url
 
 # Set your Google API key
-os.environ["GOOGLE_API_KEY"] = llm_key
 
 # Initialize the Gemini model
-llm = ChatGoogleGenerativeAI(model="gemini-pro")
+llm = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=llm_key)
 
 # Initialize conversation memory
 # memory = ConversationBufferWindowMemory(k=2)
