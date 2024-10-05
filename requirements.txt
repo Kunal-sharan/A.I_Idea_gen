@@ -6,4 +6,4 @@ langchain-groq
 mermaid-py
 streamlit
 streamlit-sortables
-
+html2text
