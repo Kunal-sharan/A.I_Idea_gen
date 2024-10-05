@@ -308,7 +308,7 @@ with tab1:
                 all_docs.append(docs_transformed)
               except:
                 continue
-            all_docs
+            # all_docs
             for docs_transformed in all_docs:
               for i in docs_transformed:
                 try:
@@ -317,7 +317,7 @@ with tab1:
                   # llm_response="fjdklsgfdks"
                   all_data.append({"url":i.metadata["source"],"title":i.metadata["title"],"content":i.page_content,"size":len(i.page_content),"llm_res":llm_response})
                 except:			
-                  st.error(i)
+                  continue
           if len(all_data)>0:
             for i in all_data:
                 with st.expander(i["title"]):
