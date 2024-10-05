@@ -295,7 +295,7 @@ tab1 = st.container()
 
 with tab1:
         # st.header("GET STARTED")
-
+	
         if len(links) > 0 :
           all_docs=[]
           with st.spinner("Loading..."):
@@ -308,7 +308,7 @@ with tab1:
                 all_docs.append(docs_transformed)
               except:
                 continue
-            # all_data=[]
+            final_links
             for docs_transformed in all_docs:
               for i in docs_transformed:
                 try:
