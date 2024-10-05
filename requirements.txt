@@ -3,7 +3,7 @@ langchain
 langchain-community
 langchain-google_genai
 langchain-groq
-mermaid
+mermaid-py
 streamlit
 streamlit-sortables
-mermaid.graph
+
