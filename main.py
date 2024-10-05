@@ -317,6 +317,7 @@ with tab1:
                   # llm_response="fjdklsgfdks"
                   all_data.append({"url":i.metadata["source"],"title":i.metadata["title"],"content":i.page_content,"size":len(i.page_content),"llm_res":llm_response})
                 except:
+	          "Here"			
                   continue
           if len(all_data)>0:
             for i in all_data:
