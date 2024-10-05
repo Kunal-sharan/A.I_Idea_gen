@@ -316,9 +316,8 @@ with tab1:
                   llm_response=llm_response.content
                   # llm_response="fjdklsgfdks"
                   all_data.append({"url":i.metadata["source"],"title":i.metadata["title"],"content":i.page_content,"size":len(i.page_content),"llm_res":llm_response})
-                except:
-	          "Here"			
-                  continue
+                except:			
+                  st.error(i)
           if len(all_data)>0:
             for i in all_data:
                 with st.expander(i["title"]):
