@@ -1,0 +1,8 @@
+google
+langchain
+langchain-community
+langchain-google_genai
+langchain-groq
+mermaid
+streamlit
+streamlit-sortables
