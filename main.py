@@ -29,7 +29,7 @@ import urllib.parse
 import re
 from langchain.prompts import PromptTemplate
 llm_idea_key=st.secrets["GROQ_KEY"]
-llm_key=st.secrets["Gemini_Key"]
+llm_key=st.secrets["GEMINI_KEY"]
 llm_idea = ChatGroq(
     model="mixtral-8x7b-32768",
     temperature=0,
