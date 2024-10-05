@@ -6,3 +6,4 @@ langchain-groq
 mermaid
 streamlit
 streamlit-sortables
+mermaid.graph
