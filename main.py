@@ -308,7 +308,7 @@ with tab1:
                 all_docs.append(docs_transformed)
               except:
                 continue
-            final_links
+            all_docs
             for docs_transformed in all_docs:
               for i in docs_transformed:
                 try:
