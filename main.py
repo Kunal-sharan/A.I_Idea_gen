@@ -125,8 +125,8 @@ def drag_drop():
   for i in all_data:
     title_arr.append(i["title"])
   original_items = [
-              {'header': 'first container',  'items': title_arr },
-              {'header': 'second container', 'items': []}
+              {'header': 'All the available choices',  'items': title_arr },
+              {'header': 'Select one option and drop it here from the available choices', 'items': []}
           ]
 
   sorted_items = sort_items(original_items, multi_containers=True)
