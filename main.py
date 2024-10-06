@@ -124,6 +124,7 @@ def drag_drop():
   title_arr=[]
   for i in all_data:
     title_arr.append(i["title"])
+  st.info("Select one option and drop it here from the available choices in the first container to second container")	  
   original_items = [
               {'header': 'All the available choices',  'items': title_arr },
               {'header': 'Select one option and drop it here from the available choices', 'items': []}
