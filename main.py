@@ -282,9 +282,9 @@ selected_option = st.text_input("Enter the industry or field in one word or at m
 if selected_option :
   query = f"issues that can be solved by A.I in {selected_option} industry"
   for j in search(query, tld="co.in", num=10, stop=10, pause=2):
-    st.write(j)
-    f=j.find('#')
-    if f == -1:
+    # st.write(j)
+    # f=j.find('#')
+    # if f == -1:
       links.append(j)
   links=list(set(links))
   final_links=[]
