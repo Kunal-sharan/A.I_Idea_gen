@@ -31,7 +31,7 @@ from langchain.prompts import PromptTemplate
 llm_idea_key=st.secrets["GROQ_KEY"]
 llm_key=st.secrets["GEMINI_KEY"]
 llm_idea = ChatGroq(
-    model="mixtral-8x7b-32768",
+    model="llama-3.1-8b-instant",
     temperature=0,
     max_tokens=None,
     timeout=None,
