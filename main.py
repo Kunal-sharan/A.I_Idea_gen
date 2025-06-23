@@ -287,6 +287,7 @@ if selected_option :
     # if f == -1:
       links.append(j)
   links=list(set(links))
+  links	
   final_links=[]
   for i in links:
     final_links.append([i])
