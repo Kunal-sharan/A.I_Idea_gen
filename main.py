@@ -108,7 +108,7 @@ def flow(steps_string):
 # Set your Google API key
 
 # Initialize the Gemini model
-llm = ChatGoogleGenerativeAI(model="gemini-pro",google_api_key=llm_key)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key=llm_key)
 
 # Initialize conversation memory
 # memory = ConversationBufferWindowMemory(k=2)
