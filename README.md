@@ -1,5 +1,5 @@
 # AI Idea Generation App
-
+## Link : https://ideation-ai.streamlit.app/
 This Streamlit-based application leverages AI to generate innovative project ideas for students' portfolios. It uses advanced language models to create, explain, and visualize project concepts based on user input and web content.
 
 ## Features
